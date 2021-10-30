@@ -1,0 +1,18 @@
+Monica Rocio Padilla Gomez-1013658780
+Manuel Santiago Ramirez Hernandez -  1000694482
+Juan Esteban Arenas Padua - 1000619051
+Nicolas David Ramirez Cerquera - 1001297105
+Fredy Esteban Mancera Del Rio - 1001327760
+
+Reporte grupo 1:
+El trabajo en grupo se distribuyo de manera equitativa, la mayoria entrego su trabajo correctamente y a tiempo a exepcion
+de unos compañeros que presentaron dificultades tecnicas en el git.
+
+Novedad:
+El compañero Juan Esteban Arenas durante la realizacion de la evidencia tuvo bajo compromiso y rendimiento en la entrega del 
+trabajo que le correspondia, enviando tarde su parte e incompleta y sin comunicar previamente al equipo de las dificultades 
+que tuvo o la falta de conocimiento en los procesos que debia realizar. En base a esta situacion ha hecho retrasar la subida 
+del trabajo al reposito y dificultado la finalizacion de este.
+
+El apendiz Manuel Ramirez tuvo dificultades con la autenticacion del programa git, por tal motivo trabajo de manera remota 
+en el equipo de Monica Padilla para poder realizar la entrega de los puntos que le correspondian.
