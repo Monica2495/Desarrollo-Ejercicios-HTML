@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contextualicion de HTLM</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+            <style type="text/css">
+            body {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                background: #F8F9F9;
+            }
+            li:hover{
+                color: orange;
+                cursor: pointer;
+            }
+            ol{ 
+                text-align: left;
+                color: #17202A;
+
+            }
+
+            body > * {
+                width: 100%;
+                border: 1px solid #000;
+                border-bottom-width: 0;
+                box-sizing: border-box;
+                text-align: center;
+            }
+
+            body > *:last-child {
+                border-bottom-width: 1px;
+
+            }
+            header{
+                background: #85C1E9;
+            }
+
+            header,
+            footer {
+                font-family: Vegur, 'Berlin Sans FB', Verdana, sans-serif;
+                min-height: 100px;
+            }
+
+            aside {
+                font-family: Vegur, 'Berlin Sans FB', Verdana, sans-serif;
+                width: 20%;
+                border: 0 solid #000;
+                border-right-width: 3px;
+                background:#ABEBC6;
+            }
+
+            .container .body {
+                width: 75%;
+            }
+            .body{
+                font-family: Vegur, 'Berlin Sans FB', Verdana, sans-serif;
+                background: #ffffff;
+            }
+            .container {
+                display: flex;
+                min-height: 300px;
+            }
+            #foot{
+                font-family: Vegur, 'Berlin Sans FB', Verdana, sans-serif;
+                background:#515A5A;
+            }
+            li{
+                list-style:none;
+            }
+            iframe{
+                margin:0; padding:0; height:100%;
+                display:block; width:100%; border:none; 
+            }
+        </style>
+        <script type="text/javascript">
+
+            function pintar(key) {
+
+                switch (key) {
+                    case 0:
+                        document.getElementById("muestra").innerHTML = "";
+                        break;
+                    case 1:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Ejercicio 1 inIcio.html'></iframe>";
+                        break;
+                    case 2:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Ejercicio 2 parrafo.html'></iframe>";
+
+                        break;
+                    case 3:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Ejercicio 3 tablas.html'></iframe>";
+
+                        break;
+                    case 4:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Ejercicio4.html'></iframe>";
+
+                        break;
+
+                    case 5:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Ejercicio 5 videos.html'></iframe>";
+
+                        break;
+                    case 6:
+
+                    document.getElementById("muestra").innerHTML = "<iframe src='Ejercicio 6 datos.html'></iframe>"
+                        break;
+                    case 7:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Formulario 219.html'></iframe>";
+
+                        break;
+                    case 8:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Formulario 223.html'></iframe>";
+
+                        break;
+                    case 9:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Formulario 242.html'></iframe>";
+
+                        break;
+                    case 10:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Formulario 244.html'></iframe>";
+
+                        break;
+                    case 11:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Formulario 246.html'></iframe>";
+
+                        break;
+                    case 12:
+                        document.getElementById("muestra").innerHTML = "<iframe src='formulario249.html'></iframe>";
+
+                        break;
+                    case 13:
+                        document.getElementById("muestra").innerHTML = "<iframe src='formulario251.html'></iframe>";
+
+                        break;
+                    case 14:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Formulario 253.html'></iframe>";
+
+                        break;
+                    case 15:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Formulario 254.html'></iframe>";
+
+                        break;
+                    case 16:
+                        document.getElementById("muestra").innerHTML = "<iframe src='Formulario 262.html'></iframe>";
+
+                        break;
+                          
+
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <div>
+            <header><h1 id="title">LENGUAJE HTML</header>
+              <div class="container">
+                <aside>
+                    <h1 onclick="pintar(0)">MENU</h5>
+                    <ol>
+                        <li onclick="pintar(1)">Ejercicio 1</li>
+                        <li onclick="pintar(2)">Ejercicio 2</li>
+                        <li onclick="pintar(3)">Ejercicio 3</li>
+                        <li onclick="pintar(4)">Ejercicio 4</li>
+                        <li onclick="pintar(5)">Ejercicio 5</li>
+                        <li onclick="pintar(6)">Ejercicio 6</li>
+                        <li onclick="pintar(7)">Formulario INPUT</li>
+                        <li onclick="pintar(8)">Formulario BUTTON</li>
+                        <li onclick="pintar(9)">Formulario FIELDSET</li>
+                        <li onclick="pintar(10)">Formulario LABEL</li>
+                        <li onclick="pintar(11)">Formulario KEYGEN</li>
+                        <li onclick="pintar(12)">Formulario SELECT</li>
+                        <li onclick="pintar(13)">Formulario METER</li>
+                        <li onclick="pintar(14)">Formulario PROGRESS</li>
+                        <li onclick="pintar(15)">Formulario OUTPUT</li>
+                        <li onclick="pintar(16)">Formulario TEXTAREA</li>
+
+                    </ol>
+                </aside>
+                <section id="muestra" class="body">Body</section>
+            </div>
+            <footer id="foot">Integrantes<br>
+                Fredy Esteban Mancera del Rio<br>
+                Monica Rocio Padilla Gomez<br>
+                Manuel Santiago Ramirez Hernandez<br>
+                Nicolas David Ramirez Cerquera<br>
+                Juan Esteban Arenas Padua
+
+            </footer>
+        </div>
+    </body>
+</html>
